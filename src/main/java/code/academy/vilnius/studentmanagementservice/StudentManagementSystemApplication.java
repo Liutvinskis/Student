@@ -1,7 +1,6 @@
 package code.academy.vilnius.studentmanagementservice;
 
 import code.academy.vilnius.studentmanagementservice.repository.StudentRepository;
-import net.javaguides.sms.repository.StudentRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -18,7 +17,7 @@ public class StudentManagementSystemApplication implements CommandLineRunner{
 	private StudentRepository studentRepository;
 
 	@Override
-	public void run(String... args) throws Exeption {
+	public void run(String... args) {
 
 	}
 

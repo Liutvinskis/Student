@@ -1,5 +1,7 @@
 package code.academy.vilnius.studentmanagementservice.service.impl;
 
+import code.academy.vilnius.studentmanagementservice.entity.Student;
+import code.academy.vilnius.studentmanagementservice.repository.StudentRepository;
 import code.academy.vilnius.studentmanagementservice.service.StudentService;
 import org.springframework.stereotype.Service;
 
